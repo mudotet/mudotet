@@ -39,11 +39,10 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           git add images/breakout-light.svg images/breakout-dark.svg
-          # Nếu không có thay đổi thì bỏ qua, nếu có thì commit
+          # Commit nếu có thay đổi, nếu không thì bỏ qua
           if git commit -m "chore: update breakout SVGs"; then
-            # Lấy dữ liệu mới nhất về trước khi push để tránh lỗi 'rejected'
-            git pull origin master --rebase
-            git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git HEAD:master
+            # Sử dụng --force để ghi đè hoàn toàn, giải quyết lỗi xung đột (Conflict)
+            git push --force https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git HEAD:master
           else
             echo "No changes to commit"
           fi
