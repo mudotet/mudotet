@@ -44,7 +44,7 @@ jobs:
           # Commit nếu có thay đổi, nếu không thì bỏ qua
           if git commit -m "chore: update breakout SVGs"; then
             # Sử dụng --force để ghi đè hoàn toàn, giải quyết lỗi xung đột (Conflict)
-            git push --force https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git HEAD:master
+            git push --force https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
           else
             echo "No changes to commit"
           fi
