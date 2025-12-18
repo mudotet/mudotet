@@ -20,6 +20,8 @@ jobs:
 
       - name: generate SVG
         uses: cyprieng/github-breakout@v1.0.0
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         with:
           github_username: ${{ github.repository_owner }}
 
