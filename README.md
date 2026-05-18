@@ -1,5 +1,9 @@
-# 💫 About Me:
-🌱 Learning more about scalable systems, backend engineering, and software architecture<br><br>💻 Building full-stack and backend applications<br><br>🚀 Interested in software engineering, AI-powered applications, and real-world product development<br><br>🧠 Ask me about APIs, databases, software design, and application development<br><br>⚡ I enjoy turning ideas into practical software solutions
+# 💻 Building & Learning:
+- 🌱 Learning more about scalable systems, backend engineering, and software architecture
+- 💻 Building full-stack and backend applications
+- 🚀 Interested in software engineering, AI-powered applications, and real-world product development
+- 🧠 Ask me about APIs, databases, software design, and application development
+- ⚡ I enjoy turning ideas into practical software solutions
 
 
 # 💻 Tech Stack:
