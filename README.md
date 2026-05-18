@@ -1,4 +1,4 @@
-# 💻 Building & Learning:
+# 🚀  Building & Learning:
 - 🌱 Learning more about scalable systems, backend engineering, and software architecture
 - 💻 Building full-stack and backend applications
 - 🚀 Interested in software engineering, AI-powered applications, and real-world product development
