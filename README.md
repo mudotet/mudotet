@@ -1,293 +1,384 @@
+<!-- ===================== HERO BANNER ===================== -->
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./images/profile-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./images/profile-light.svg" />
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./images/profile-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="./images/profile-light.svg"
+  />
   <img
-    src="./images/profile-dark.svg"
     width="100%"
+    src="./images/profile-dark.svg"
     alt="Phan Thanh Tu — Java Backend Developer"
   />
 </picture>
 
+<br/>
+
 <p align="center">
-  <kbd>OPEN TO JAVA BACKEND INTERN / FRESHER OPPORTUNITIES</kbd>
+  <a href="mailto:mudotet@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact_Me-0F172A?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://tus-portfolio.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-View_Projects-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/t%C3%BA-phan-203970327/">
+    <img src="https://img.shields.io/badge/LinkedIn-Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
 </p>
 
 <p align="center">
-  <a href="https://tus-portfolio.vercel.app/"><strong>Portfolio</strong></a>
-  &nbsp;•&nbsp;
-  <a href="https://github.com/mudotet"><strong>GitHub</strong></a>
-  &nbsp;•&nbsp;
-  <a href="https://www.linkedin.com/in/t%C3%BA-phan-203970327/"><strong>LinkedIn</strong></a>
-  &nbsp;•&nbsp;
-  <a href="mailto:mudotet@gmail.com"><strong>Email</strong></a>
+  <strong>Java Backend Developer</strong>
+  <br/>
+  <sub>Spring Boot enthusiast · AI-powered product builder · Bug producer & professional bug fixer</sub>
 </p>
 
 ---
 
-## `01. system.identity`
+## 👋 Hey, I'm Tú
+
+I'm a final-year IT Engineering student from **Hanoi, Vietnam**, currently looking for a **Java Backend Intern / Fresher** opportunity.
+
+I enjoy building applications where the backend does more than just return:
+
+```json
+{
+  "message": "Hello World"
+}
+```
+
+I like working with APIs, authentication, databases, caching, Docker and AI services — especially when they come together to solve an actual problem.
+
+```java
+while (alive) {
+    learn();
+    build();
+    debug();
+    improve();
+}
+```
+
+---
+
+## 🧑‍💻 What I'm currently cooking
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### ⚙️ Backend Engineering
+
+Building REST APIs with:
+
+* Spring Boot
+* Spring Security
+* JWT and RBAC
+* JPA / Hibernate
+* PostgreSQL and MySQL
+* Redis caching
+
+</td>
+<td width="50%" valign="top">
+
+### 🤖 AI-powered Products
+
+Exploring how to connect:
+
+* Java applications
+* FastAPI AI services
+* OCR and document understanding
+* RAG systems
+* AI-assisted user experiences
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🏗️ Learning
+
+Currently going deeper into:
+
+* Scalable backend systems
+* Software architecture
+* Database design
+* Clean service boundaries
+* Testing and reliability
+
+</td>
+<td width="50%" valign="top">
+
+### 🎯 Looking for
+
+A team where I can:
+
+* Work on real products
+* Learn from experienced engineers
+* Contribute to backend features
+* Receive honest code reviews
+* Grow into a strong software engineer
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🧰 My developer toolbox
+
+### ☕ Backend
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=java,spring,nestjs,python,fastapi&theme=dark" alt="Backend technologies" />
+</p>
+
+### 🗄️ Databases and caching
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis&theme=dark" alt="Databases" />
+</p>
+
+### 🎨 Frontend
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=react,js,html,css&theme=dark" alt="Frontend technologies" />
+</p>
+
+### 🛠️ Tools
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=docker,git,github,maven,postman,idea,vscode&theme=dark" alt="Development tools" />
+</p>
+
+<details>
+<summary><strong>See the full stack</strong></summary>
+
+<br/>
+
+| Area            | Technologies                                           |
+| --------------- | ------------------------------------------------------ |
+| Backend         | Java, Spring Boot, Spring MVC, NestJS, FastAPI         |
+| Security        | Spring Security, JWT, RBAC, OAuth2 concepts            |
+| Persistence     | Spring Data JPA, Hibernate, PostgreSQL, MySQL          |
+| NoSQL and cache | MongoDB, Redis                                         |
+| Frontend        | React, JavaScript, HTML, CSS                           |
+| AI              | OCR, RAG, AI model integration, document understanding |
+| Tools           | Docker, Maven, Git, GitHub, Postman, Swagger/OpenAPI   |
+
+</details>
+
+---
+
+## 🚀 Featured builds
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🔐 Identity Service
+
+A Spring Boot authentication and authorization service.
+
+**Highlights**
+
+* JWT authentication
+* Spring Security
+* Role-based access control
+* Spring Data JPA
+* MySQL
+* MapStruct
+
+<br/>
+
+<a href="https://github.com/mudotet/identity_services">
+  <img src="https://img.shields.io/badge/View_repository-111827?style=flat-square&logo=github&logoColor=white" />
+</a>
+
+</td>
+<td width="50%" valign="top">
+
+### 🧠 AI Emotion App
+
+A Java application that combines AI conversations with emotion analysis and mood history.
+
+**Highlights**
+
+* Java and JavaFX
+* AI model integration
+* MySQL persistence
+* Emotion classification
+* Conversation history
+
+<br/>
+
+<a href="https://github.com/mudotet/AI_EMOTION_APP">
+  <img src="https://img.shields.io/badge/View_repository-111827?style=flat-square&logo=github&logoColor=white" />
+</a>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 📄 Invoice Extraction
+
+An intelligent document-processing application that extracts structured information from invoice images.
+
+**Highlights**
+
+* OCR pipeline
+* PyTesseract
+* LayoutLM
+* PyTorch
+* Streamlit
+* JSON and CSV export
+
+<br/>
+
+<a href="https://github.com/mudotet/Invoice_Extraction_Project">
+  <img src="https://img.shields.io/badge/View_repository-111827?style=flat-square&logo=github&logoColor=white" />
+</a>
+
+</td>
+<td width="50%" valign="top">
+
+### 🏠 NYALA Platform
+
+Backend contributions to a real-estate auction product during my internship at PathTech JSC.
+
+**What I worked with**
+
+* NestJS REST APIs
+* PostgreSQL
+* Redis
+* JWT and RBAC
+* Stripe payments
+* Webhooks
+* Team-based development
+
+<br/>
+
+<a href="https://tus-portfolio.vercel.app/">
+  <img src="https://img.shields.io/badge/Read_more_on_portfolio-7C3AED?style=flat-square&logo=vercel&logoColor=white" />
+</a>
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🛰️ How I like to build
+
+```text
+User problem
+     │
+     ▼
+Clear requirements
+     │
+     ▼
+API contract
+     │
+     ▼
+Business logic
+     │
+     ├──────────► Database
+     │
+     ├──────────► Cache
+     │
+     └──────────► AI service
+     │
+     ▼
+Test, debug and improve
+```
+
+My current goal is not to create the most complicated architecture.
+
+It is to build systems that are:
+
+```text
+✓ understandable
+✓ maintainable
+✓ secure
+✓ testable
+✓ useful
+```
+
+---
+
+## 🎮 Developer status
 
 ```yaml
-developer:
-  name: "Phan Thanh Tu"
-  role: "Java Backend Developer"
-  direction: "Backend-Focused Full-Stack Engineer"
-  location: "Hanoi, Vietnam"
-  education: "Final-year IT Engineering Student"
+name: Phan Thanh Tu
+location: Hanoi, Vietnam
 
-current_focus:
-  - "Secure and maintainable Spring Boot services"
-  - "REST API design and database-backed applications"
-  - "Authentication, authorization and data consistency"
-  - "AI services integrated into real-world products"
+main_class: JavaBackendDeveloper
 
-opportunity:
-  target: "Java Backend Intern / Fresher"
-  availability: "Open to opportunities"
-```
+currently:
+  building: Backend and AI-powered applications
+  learning: Scalable systems and software architecture
+  improving: System design and technical communication
+  debugging: Probably something caused by configuration
 
-I build backend systems that turn product requirements into clear APIs, reliable data flows and maintainable application code.
+open_to:
+  - Java Backend Intern
+  - Java Backend Fresher
+  - Backend-Focused Full-Stack roles
 
-My main direction is **Java and Spring Boot**, with practical experience across authentication, relational databases, caching, containerized development and AI-service integration.
-
----
-
-## `02. engineering.focus`
-
-| Area                   | What I work on                                                                                |
-| ---------------------- | --------------------------------------------------------------------------------------------- |
-| **API Engineering**    | RESTful endpoints, DTO design, validation, exception handling and clear API contracts         |
-| **Security**           | Spring Security, JWT authentication, refresh tokens, RBAC and OAuth2 concepts                 |
-| **Data Layer**         | Relational modelling, JPA/Hibernate, PostgreSQL, MySQL, Redis and transaction-aware workflows |
-| **System Integration** | Connecting Spring Boot applications with Python/FastAPI AI services                           |
-| **Delivery**           | Dockerized environments, Maven builds, Git workflows and OpenAPI documentation                |
-
-### Principles I try to follow
-
-```text
-clear contracts       > hidden assumptions
-simple architecture   > unnecessary complexity
-validated boundaries  > debugging corrupted data later
-secure defaults       > security added at the end
-working software      > impressive-looking demos
+coffee_required: true
 ```
 
 ---
 
-## `03. backend.architecture`
+## 📈 GitHub signal
 
-A typical system I enjoy building looks like this:
+<p align="center">
+  <img
+    width="49%"
+    src="https://github-readme-stats.shion.dev/api?username=mudotet&show_icons=true&theme=transparent&hide_border=true&rank_icon=github"
+    alt="GitHub statistics"
+  />
+  <img
+    width="49%"
+    src="https://github-readme-stats.shion.dev/api/top-langs/?username=mudotet&theme=transparent&hide_border=true&layout=compact&langs_count=8"
+    alt="Most used languages"
+  />
+</p>
 
-```text
-                         ┌─────────────────────────┐
-                         │      Web / Mobile       │
-                         │        Client           │
-                         └────────────┬────────────┘
-                                      │
-                                  REST / JSON
-                                      │
-                                      ▼
-┌───────────────────────────────────────────────────────────────┐
-│                     SPRING BOOT API                           │
-│                                                               │
-│  ┌─────────────────┐   ┌─────────────────┐   ┌─────────────┐ │
-│  │   Controllers   │──▶│    Services     │──▶│ Repositories│ │
-│  │ DTO + Validation│   │ Business Rules  │   │  JPA / SQL  │ │
-│  └─────────────────┘   └────────┬────────┘   └──────┬──────┘ │
-│                                 │                   │        │
-│  ┌─────────────────┐            │             ┌─────▼──────┐ │
-│  │ Security Layer  │            │             │ PostgreSQL │ │
-│  │ JWT · RBAC      │            │             │   MySQL    │ │
-│  │ OAuth2          │            │             └────────────┘ │
-│  └─────────────────┘            │                              │
-└─────────────────────────────────┼──────────────────────────────┘
-                                  │
-                    ┌─────────────┴─────────────┐
-                    │                           │
-              ┌─────▼─────┐              ┌──────▼────────┐
-              │   Redis   │              │ FastAPI / AI  │
-              │ Cache/Data│              │ OCR · RAG · ML│
-              └───────────┘              └───────────────┘
-```
-
-The diagram reflects the areas I am actively strengthening: separation of concerns, secure request flows, predictable persistence and practical AI integration.
+<p align="center">
+  <sub>Statistics are fun. Projects, decisions and continuous improvement matter more.</sub>
+</p>
 
 ---
 
-## `04. experience.snapshot`
+## 💬 Let's build something useful
 
-### Backend development in a real product environment
+<p align="center">
+  I'm always interested in backend engineering, AI-powered applications and real-world product development.
+</p>
 
-During my Full-Stack Developer Internship at **PathTech JSC**, I contributed to backend services for the **NYALA real-estate auction platform**.
-
-```text
-NestJS · PostgreSQL · Redis · JWT · Role-Based Access Control
-Stripe Payments · Webhooks · REST APIs · Git Collaboration
-```
-
-My work exposed me to the difference between building a classroom feature and contributing to a system with authentication, payments, shared data and real product requirements.
-
-### Community and product building
-
-* Team Lead — **GuideLens AI**
-* Third Place — **Codex Community Hackathon**
-* Interested in AI-native applications that solve practical user problems rather than adding AI only as a presentation feature
-
----
-
-## `05. selected.builds`
-
-### [`identity_services`](https://github.com/mudotet/identity_services)
-
-> A Spring Boot identity service focused on authentication and authorization foundations.
-
-```text
-Java 17 · Spring Boot · Spring Security · OAuth2 Resource Server
-Nimbus JWT · Spring Data JPA · MapStruct · MySQL · H2 · Maven
-```
-
-**Engineering topics demonstrated**
-
-* JWT validation and identity-related security concerns
-* Layered Spring Boot application structure
-* Persistence with Spring Data JPA
-* DTO mapping using MapStruct
-* Test-ready database configuration
-* Consistent formatting with Spotless
-
----
-
-### [`AI_EMOTION_APP`](https://github.com/mudotet/AI_EMOTION_APP)
-
-> A Java desktop application combining AI-guided conversation, emotion analysis and mood history.
-
-```text
-Java · JavaFX · MySQL · AI Model Integration · Maven
-```
-
-**Engineering topics demonstrated**
-
-* AI response integration inside a Java application
-* Emotion classification from user-provided text
-* Persistent user, conversation and emotion records
-* Relational data modelling
-* Modular desktop application design
-
----
-
-### [`Invoice_Extraction_Project`](https://github.com/mudotet/Invoice_Extraction_Project)
-
-> An OCR and document-understanding pipeline for extracting structured information from invoice images.
-
-```text
-Python · PyTesseract · LayoutLM · PyTorch · Streamlit
-OCR · Document Understanding · JSON / CSV Export
-```
-
-**Engineering topics demonstrated**
-
-* OCR preprocessing and text extraction
-* Layout-aware document classification
-* Model inference pipeline
-* Structured result export
-* Lightweight Streamlit interface
-
----
-
-### More work
-
-My portfolio contains additional backend, full-stack and AI-related projects:
-
-<p>
+<p align="center">
+  <a href="mailto:mudotet@gmail.com">
+    <img src="https://img.shields.io/badge/mudotet%40gmail.com-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
   <a href="https://tus-portfolio.vercel.app/">
-    <strong>Explore my project portfolio →</strong>
+    <img src="https://img.shields.io/badge/tus--portfolio.vercel.app-Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
 </p>
 
 ---
 
-## `06. stack.runtime`
-
-### Backend core
-
-`Java` · `Spring Boot` · `Spring MVC` · `Spring Security`
-`Spring Data JPA` · `Hibernate` · `REST API` · `JWT` · `RBAC`
-
-### Data and persistence
-
-`PostgreSQL` · `MySQL` · `MongoDB` · `Redis`
-`Relational Modelling` · `Caching` · `Transactions`
-
-### Development and delivery
-
-`Docker` · `Maven` · `Git` · `GitHub`
-`Swagger / OpenAPI` · `Postman` · `MapStruct`
-
-### Integration layer
-
-`Python` · `FastAPI` · `NestJS` · `React`
-`OCR` · `RAG` · `AI Model Integration`
-
----
-
-## `07. current.status`
-
-```java
-public final class CurrentDirection {
-
-    private final String primaryStack =
-            "Java + Spring Boot + PostgreSQL";
-
-    private final String learningFocus =
-            "Scalable backend architecture and system design";
-
-    private final String productInterest =
-            "AI-powered applications with practical value";
-
-    private final String targetRole =
-            "Java Backend Intern / Fresher";
-
-    public boolean openToOpportunities() {
-        return true;
-    }
-}
-```
-
-I am currently improving my ability to:
-
-* Explain technical decisions clearly
-* Design maintainable service boundaries
-* Handle authentication and authorization correctly
-* Model data around real business requirements
-* Test backend behavior instead of only testing happy paths
-* Deploy multi-service applications with Docker
-* Integrate AI services without tightly coupling them to the core application
-
----
-
-## `08. contact.channel`
+## 🧱 Contribution Breakout
 
 <p align="center">
-  <strong>Looking for a Java Backend Intern or Fresher who enjoys learning by building?</strong>
-</p>
-
-<p align="center">
-  <a href="mailto:mudotet@gmail.com">mudotet@gmail.com</a>
-  &nbsp;•&nbsp;
-  <a href="https://tus-portfolio.vercel.app/">Portfolio</a>
-  &nbsp;•&nbsp;
-  <a href="https://www.linkedin.com/in/t%C3%BA-phan-203970327/">LinkedIn</a>
-</p>
-
-<p align="center">
-  <sub>Hanoi, Vietnam · Open to backend and backend-focused full-stack opportunities</sub>
-</p>
-
----
-
-## `09. contribution.breakout`
-
-<p align="center">
-  <sub>My GitHub contribution history, transformed into a Breakout board.</sub>
+  <sub>My GitHub contributions, but slightly more fun.</sub>
 </p>
 
 <picture>
@@ -307,5 +398,5 @@ I am currently improving my ability to:
 </picture>
 
 <p align="center">
-  <sub>Build. Break. Learn. Improve. Repeat.</sub>
+  <code>build → break → debug → learn → repeat</code>
 </p>
