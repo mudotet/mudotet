@@ -31,6 +31,9 @@ jobs:
           mv output/light.svg images/breakout-light.svg
           mv output/dark.svg images/breakout-dark.svg
 
+      - name: Build contribution signal
+        run: python3 scripts/build_contribution_graph.py
+
       - name: Configure git
         run: |
           git config user.name "github-actions[bot]"
@@ -40,11 +43,10 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          git add images/breakout-light.svg images/breakout-dark.svg
+          git add images/breakout-light.svg images/breakout-dark.svg images/contribution-light.svg images/contribution-dark.svg
           # Commit nếu có thay đổi, nếu không thì bỏ qua
           if git commit -m "chore: update breakout SVGs"; then
-            # Sử dụng --force để ghi đè hoàn toàn, giải quyết lỗi xung đột (Conflict)
-            git push --force https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
+            git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
           else
             echo "No changes to commit"
           fi
