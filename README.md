@@ -44,16 +44,16 @@ I'm Tú, a final-year IT Engineering student building backend systems and AI-ass
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="./images/projects-dark.svg?v=2"
+    srcset="./images/projects-dark.svg?v=3"
   />
   <source
     media="(prefers-color-scheme: light)"
-    srcset="./images/projects-light.svg?v=2"
+    srcset="./images/projects-light.svg?v=3"
   />
   <img
     width="100%"
-    src="./images/projects-dark.svg?v=2"
-    alt="Animated 2 by 2 showcase of NYALA, Identity Service, Invoice Extraction, and AI HUMG Regulation"
+    src="./images/projects-dark.svg?v=3"
+    alt="Animated 2 by 2 showcase of AI Birth Registration Guide, Identity Service, Invoice Extraction, and AI HUMG Regulation"
   />
 </picture>
 
@@ -61,11 +61,11 @@ I'm Tú, a final-year IT Engineering student building backend systems and AI-ass
   <tbody>
     <tr>
       <td width="50%" valign="top">
-        <sub>01 / INTERNSHIP</sub><br/>
-        <strong>NYALA — real-estate auction platform</strong>
-        <p>REST APIs, JWT/RBAC, Stripe payments, webhooks, and cache-backed features shipped with the PathTech JSC team.</p>
-        <p><code>NestJS</code> <code>PostgreSQL</code> <code>Redis</code> <code>Stripe</code></p>
-        <a href="https://tus-portfolio.vercel.app/"><strong>Case study ↗</strong></a>
+        <sub>01 / AI INNOVATION CHALLENGE</sub><br/>
+        <strong>AI Birth Registration Guide — guided public service procedure</strong>
+        <p>An AI assistant that guides birth-registration preparation step by step, asks for clarification when needed, and keeps administrative decisions and sources transparent.</p>
+        <p><code>AI guidance</code> <code>Document checks</code> <code>Public service</code></p>
+        <a href="https://ai-guided-public-service-procedures.vercel.app/"><strong>Open live product ↗</strong></a>
       </td>
       <td width="50%" valign="top">
         <sub>02 / BACKEND</sub><br/>
