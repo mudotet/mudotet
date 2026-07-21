@@ -97,46 +97,44 @@ I'm Tú, a final-year IT Engineering student building backend systems and AI-ass
 ## Technical profile
 
 <table>
-  <tr>
-    <td width="18%"><strong>Backend</strong><br/><sub>Services and APIs</sub></td>
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java%2Cspring%2Cnestjs%2Cpython%2Cfastapi&amp;theme=dark" />
-        <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java%2Cspring%2Cnestjs%2Cpython%2Cfastapi&amp;theme=light" />
-        <img src="https://skillicons.dev/icons?i=java%2Cspring%2Cnestjs%2Cpython%2Cfastapi&amp;theme=dark" alt="Java, Spring Boot, NestJS, Python, and FastAPI" />
-      </picture>
-    </td>
-  </tr>
-  <tr>
-    <td><strong>Data</strong><br/><sub>Storage and cache</sub></td>
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=postgres%2Cmysql%2Cmongodb%2Credis&amp;theme=dark" />
-        <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=postgres%2Cmysql%2Cmongodb%2Credis&amp;theme=light" />
-        <img src="https://skillicons.dev/icons?i=postgres%2Cmysql%2Cmongodb%2Credis&amp;theme=dark" alt="PostgreSQL, MySQL, MongoDB, and Redis" />
-      </picture>
-    </td>
-  </tr>
-  <tr>
-    <td><strong>Tooling</strong><br/><sub>Build and delivery</sub></td>
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=docker%2Cmaven%2Cgit%2Cgithub%2Cpostman&amp;theme=dark" />
-        <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=docker%2Cmaven%2Cgit%2Cgithub%2Cpostman&amp;theme=light" />
-        <img src="https://skillicons.dev/icons?i=docker%2Cmaven%2Cgit%2Cgithub%2Cpostman&amp;theme=dark" alt="Docker, Maven, Git, GitHub, and Postman" />
-      </picture>
-    </td>
-  </tr>
-  <tr>
-    <td><strong>Frontend</strong><br/><sub>Product surface</sub></td>
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react%2Cjs&amp;theme=dark" />
-        <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=react%2Cjs&amp;theme=light" />
-        <img src="https://skillicons.dev/icons?i=react%2Cjs&amp;theme=dark" alt="React and JavaScript" />
-      </picture>
-    </td>
-  </tr>
+  <tbody>
+    <tr>
+      <td width="50%" valign="top">
+        <strong>Backend</strong><br/><sub>Services and APIs</sub><br/><br/>
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java%2Cspring%2Cnestjs%2Cpython%2Cfastapi&amp;theme=dark" />
+          <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java%2Cspring%2Cnestjs%2Cpython%2Cfastapi&amp;theme=light" />
+          <img height="44" src="https://skillicons.dev/icons?i=java%2Cspring%2Cnestjs%2Cpython%2Cfastapi&amp;theme=dark" alt="Java, Spring Boot, NestJS, Python, and FastAPI" />
+        </picture>
+      </td>
+      <td width="50%" valign="top">
+        <strong>Data</strong><br/><sub>Storage and cache</sub><br/><br/>
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=postgres%2Cmysql%2Cmongodb%2Credis&amp;theme=dark" />
+          <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=postgres%2Cmysql%2Cmongodb%2Credis&amp;theme=light" />
+          <img height="44" src="https://skillicons.dev/icons?i=postgres%2Cmysql%2Cmongodb%2Credis&amp;theme=dark" alt="PostgreSQL, MySQL, MongoDB, and Redis" />
+        </picture>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" valign="top">
+        <strong>Tooling</strong><br/><sub>Build and delivery</sub><br/><br/>
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=docker%2Cmaven%2Cgit%2Cgithub%2Cpostman&amp;theme=dark" />
+          <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=docker%2Cmaven%2Cgit%2Cgithub%2Cpostman&amp;theme=light" />
+          <img height="44" src="https://skillicons.dev/icons?i=docker%2Cmaven%2Cgit%2Cgithub%2Cpostman&amp;theme=dark" alt="Docker, Maven, Git, GitHub, and Postman" />
+        </picture>
+      </td>
+      <td width="50%" valign="top">
+        <strong>Frontend</strong><br/><sub>Product surface</sub><br/><br/>
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react%2Cjs&amp;theme=dark" />
+          <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=react%2Cjs&amp;theme=light" />
+          <img height="44" src="https://skillicons.dev/icons?i=react%2Cjs&amp;theme=dark" alt="React and JavaScript" />
+        </picture>
+      </td>
+    </tr>
+  </tbody>
 </table>
 
 ## GitHub stats
@@ -161,7 +159,11 @@ I'm Tú, a final-year IT Engineering student building backend systems and AI-ass
 
 > **Open to Java Backend Intern and Fresher roles.** I want to contribute to real backend features, learn through direct code review, and grow into an engineer trusted with production systems.
 
-Reach me at [mudotet@gmail.com](mailto:mudotet@gmail.com), connect on [LinkedIn](https://www.linkedin.com/in/t%C3%BA-phan-203970327/), or explore the longer case studies on my [portfolio](https://tus-portfolio.vercel.app/).
+<p align="center">
+  <a href="mailto:mudotet@gmail.com"><img src="https://img.shields.io/badge/EMAIL-mudotet%40gmail.com-0F172A?style=for-the-badge&amp;logo=gmail&amp;logoColor=34D399" alt="Email mudotet@gmail.com" /></a>
+  <a href="https://www.linkedin.com/in/t%C3%BA-phan-203970327/"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0F172A?style=for-the-badge&amp;logo=linkedin&amp;logoColor=22D3EE" alt="Connect on LinkedIn" /></a>
+  <a href="https://tus-portfolio.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-CASE_STUDIES-0F172A?style=for-the-badge&amp;logo=vercel&amp;logoColor=FFFFFF" alt="Explore portfolio case studies" /></a>
+</p>
 
 ---
 
