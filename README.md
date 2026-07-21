@@ -126,8 +126,6 @@ If that sounds aligned, reach me at [mudotet@gmail.com](mailto:mudotet@gmail.com
 
 ## Contribution signal
 
-A 53-week activity view generated from the same GitHub data that powers the game below.
-
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
@@ -147,9 +145,6 @@ A 53-week activity view generated from the same GitHub data that powers the game
 ---
 
 ## Contribution Breakout
-
-A small reminder that consistency can still have personality.
-
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
