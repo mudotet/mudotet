@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="title desc">
   <title id="title">Phan Thanh Tu — Java Backend Developer</title>
-  <desc id="desc">Animated terminal-style GitHub profile banner with a pixel portrait derived from Phan Thanh Tu's profile photo, developer details, skills, and social links.</desc>
+  <desc id="desc">Animated terminal-style GitHub profile banner with a pixel portrait derived from Phan Thanh Tu's profile photo, developer details, and skills.</desc>
 
   <defs>
     <clipPath id="canvasClip"><rect width="1180" height="610" rx="32"/></clipPath>
@@ -313,21 +313,12 @@
       </g>
     </g>
 
-    <path d="M526 463H1100" stroke="#0F172A" stroke-opacity=".07"/>
-    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" fill="#475569">
-      <g transform="translate(526 482)"><circle cx="14" cy="14" r="14" fill="#0F172A" fill-opacity=".035" stroke="#3B82F6" stroke-opacity=".22"><animate attributeName="stroke-opacity" values=".18;.6;.18" dur="4.5s" repeatCount="indefinite"/></circle><path d="M14 7.5a6.5 6.5 0 0 0-2.05 12.67c.33.06.45-.14.45-.32v-1.27c-1.84.4-2.23-.78-2.23-.78-.3-.76-.73-.96-.73-.96-.6-.41.05-.4.05-.4.66.05 1.01.68 1.01.68.59 1 1.54.71 1.92.54.06-.42.23-.71.42-.88-1.47-.17-3.02-.73-3.02-3.26 0-.72.26-1.31.68-1.77-.07-.17-.3-.84.06-1.75 0 0 .55-.18 1.79.67a6.2 6.2 0 0 1 3.26 0c1.24-.85 1.79-.67 1.79-.67.36.91.13 1.58.06 1.75.42.46.68 1.05.68 1.77 0 2.54-1.55 3.09-3.02 3.25.24.21.45.61.45 1.23v1.82c0 .18.12.38.45.32A6.5 6.5 0 0 0 14 7.5Z" fill="#0F172A"/><text x="37" y="18">GitHub</text></g>
-      <g transform="translate(666 482)"><rect width="28" height="28" rx="14" fill="#0F172A" fill-opacity=".035" stroke="#06B6D4" stroke-opacity=".22"><animate attributeName="stroke-opacity" values=".18;.6;.18" dur="4.8s" begin="-1.2s" repeatCount="indefinite"/></rect><text x="14" y="19" text-anchor="middle" fill="#0F172A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="750">in</text><text x="37" y="18">LinkedIn</text></g>
-      <g transform="translate(824 482)"><circle cx="14" cy="14" r="14" fill="#0F172A" fill-opacity=".035" stroke="#3B82F6" stroke-opacity=".22"><animate attributeName="stroke-opacity" values=".18;.6;.18" dur="4.3s" begin="-2.1s" repeatCount="indefinite"/></circle><path d="M9 8.5 19 19.5M18.5 8.5 9.5 19.5" stroke="#0F172A" stroke-width="1.8" stroke-linecap="round"/><text x="37" y="18">Twitter</text></g>
-      <g transform="translate(952 482)"><circle cx="14" cy="14" r="14" fill="#0F172A" fill-opacity=".035" stroke="#34D399" stroke-opacity=".22"><animate attributeName="stroke-opacity" values=".18;.6;.18" dur="5s" begin="-2.8s" repeatCount="indefinite"/></circle><circle cx="14" cy="14" r="6.5" fill="none" stroke="#0F172A" stroke-width="1.2"/><path d="M7.5 14h13M14 7.5c2.4 2.6 2.4 10.4 0 13M14 7.5c-2.4 2.6-2.4 10.4 0 13" fill="none" stroke="#0F172A" stroke-width="1"/><text x="37" y="18">Portfolio</text></g>
-    </g>
-
     <rect width="1180" height="610" filter="url(#noise)" opacity=".025"/>
   </g>
 
   <rect x="1" y="1" width="1178" height="608" rx="31" fill="none" stroke="#0F172A" stroke-opacity=".09"/>
   <rect x="1.5" y="1.5" width="1177" height="607" rx="30.5" fill="none" stroke="url(#shimmer)" stroke-width="1.4" opacity=".75"/>
 </svg>
-
 
 
 
