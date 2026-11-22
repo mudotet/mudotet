@@ -1,35 +1,46 @@
-<img src="./images/profile_pic.jpeg" width="108" align="right" alt="Portrait of Tú Phan" />
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./images/hanoi-after-dark-still.webp" />
+  <img src="./images/hanoi-after-dark.webp" width="100%" alt="A glowing teal path crosses Hanoi’s Long Biên Bridge after dark, splits in two, and rejoins at an amber light." />
+</picture>
 
-# Hi, I'm Tú Phan
+# Hi, I’m Tú Phan.
 
 I build Java backends in Hanoi.
-My favorite question to ask about a feature is *what happens if this runs twice?*
+The part I enjoy most is figuring out what happens when a request times out, an event arrives twice, or a player hits Buy again.
 
-[Portfolio](https://tus-portfolio.vercel.app/) · [Email](mailto:mudotet@gmail.com)
+[Portfolio](https://tus-portfolio.vercel.app/) · [Email](mailto:mudotet@gmail.com) · [Other repositories](https://github.com/mudotet?tab=repositories)
 
-## Two backend problems I worked through
+## One purchase. Two requests.
 
-### [An order event arrives twice](https://github.com/mudotet/ecommerce-microservices)
+Say the server charges the player, but the response never reaches their phone.
+When the player retries with the same request ID, my game server returns the saved receipt.
+If the retry changes what they’re buying, the server returns a conflict.
 
-In my Spring Boot e-commerce project, the order and inventory services use separate PostgreSQL databases and communicate through Kafka.
-Inventory processing records the result by order ID so a redelivered event can't deduct stock twice.
+<details>
+<summary><strong>Replay the request</strong></summary>
 
-### [A player retries a purchase](https://github.com/mudotet/mini-intern-server-project/tree/main/server)
+| What the player sends | What the server does |
+| --- | --- |
+| Buy one item with ID `buy_000000000001` | Charges once and saves the receipt |
+| Retry with the same ID and item | Returns the saved receipt |
+| Reuse that ID for a different item | Returns `409 REQUEST_ID_REUSED` |
 
-In my Java game server demo, a player can retry a shop purchase with the same request ID and get the original receipt.
-The API returns a conflict if the same ID comes back with different purchase details.
+</details>
 
-## A couple of things you can try
+[Game server source](https://github.com/mudotet/mini-intern-server-project/tree/main/server) · [Purchase API contract](https://github.com/mudotet/mini-intern-server-project/blob/main/server/docs/API_CONTRACT.md)
 
-- [**GuideLens AI**](https://github.com/mudotet/GUIDELENS_AI) takes a screenshot and a question, then draws the suggested steps directly on the image.
-- [**CivicPath AI**](https://ai-guided-public-service-procedures.vercel.app/) helps Vietnamese families work out which documents they need to register a birth. [Source](https://github.com/mudotet/AI-guided-public-service-procedures-Lonely-Stone-)
+## More things I’ve built
 
-## Contribution Breakout
+- **[E-commerce Microservices](https://github.com/mudotet/ecommerce-microservices)** uses Kafka to coordinate orders and inventory across separate PostgreSQL databases. The inventory service remembers which order IDs it processed so a redelivered event can’t deduct stock twice.
+- **[GuideLens AI](https://github.com/mudotet/GUIDELENS_AI)** takes a screenshot and a question, then draws the suggested steps directly on the interface.
+- **[CivicPath AI](https://ai-guided-public-service-procedures.vercel.app/)** walks Vietnamese families through the documents they need to register a birth. [Source code](https://github.com/mudotet/AI-guided-public-service-procedures-Lonely-Stone-)
 
-My GitHub contribution graph as a Breakout animation.
+## My commits are the bricks
+
+A year of GitHub contributions becomes a Breakout animation.
 
 <picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./images/breakout-preview-still.webp" />
   <source media="(prefers-color-scheme: dark)" srcset="./images/breakout-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./images/breakout-light.svg" />
-  <img width="100%" src="./images/breakout-light.svg" alt="Breakout animation using my GitHub contributions as bricks" />
+  <img src="./images/breakout-light.svg" width="100%" alt="A Breakout animation with bricks laid out like my GitHub contribution graph." />
 </picture>
