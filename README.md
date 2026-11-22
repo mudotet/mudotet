@@ -19,11 +19,9 @@ If the retry changes what they’re buying, the server returns a conflict.
 <details>
 <summary><strong>Replay the request</strong></summary>
 
-| What the player sends | What the server does |
-| --- | --- |
-| Buy one item with ID `buy_000000000001` | Charges once and saves the receipt |
-| Retry with the same ID and item | Returns the saved receipt |
-| Reuse that ID for a different item | Returns `409 REQUEST_ID_REUSED` |
+1. **Buy one item** with ID `buy_000000000001`. The server charges once and saves the receipt.
+2. **Retry the same purchase** with that ID. The server returns the saved receipt.
+3. **Change the item** and reuse that ID. The server returns `409` with `REQUEST_ID_REUSED`.
 
 </details>
 
