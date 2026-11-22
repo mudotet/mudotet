@@ -25,9 +25,9 @@ The server uses Akka HTTP, Redis, and DynamoDB, and pins the Protobuf contracts 
 ### [CivicPath AI](https://github.com/mudotet/AI-guided-public-service-procedures-Lonely-Stone-)
 
 A team hackathon prototype that helps people prepare birth-registration documents.
-The FastAPI backend uses deterministic rules to flag missing or conflicting fields and flags uncertain cases for officer review.
+The FastAPI backend checks for missing or conflicting fields with deterministic rules and flags uncertain cases for officer review.
 
-[Architecture](https://github.com/mudotet/AI-guided-public-service-procedures-Lonely-Stone-#-architecture) · [Project demo](https://ai-guided-public-service-procedures.vercel.app/)
+[Architecture](https://github.com/mudotet/AI-guided-public-service-procedures-Lonely-Stone-#%EF%B8%8F-architecture) · [Project demo](https://ai-guided-public-service-procedures.vercel.app/)
 
 ## Contribution Breakout
 
